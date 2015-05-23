@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="hello_world">Hello the world!</string>
+    <string name="action_settings">•••</string>
+    <string name="search_hint">Search Locations</string>
+</resources>

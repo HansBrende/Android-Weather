@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/selection_background" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/desc_location_text"
+        android:textSize="26sp"
+        android:shadowColor="#334455"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_alignBaseline="@+id/desc_temp_text"
+        android:layout_alignBottom="@+id/desc_temp_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/desc_temp_text"
+        android:textSize="60sp"
+        android:textColor="#000000"
+        android:shadowColor="#334455"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_text"
+        android:textSize="16sp"
+        android:layout_above="@+id/desc_location_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:shadowColor="#334455"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:layout_marginBottom="5dp" />
+</RelativeLayout>
